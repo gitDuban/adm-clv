@@ -8,13 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace adm_clv
+namespace proyecto_hv
 {
-    public partial class Form1 : Form
+    public partial class Frm_Agregar : Form
     {
-        public Form1()
+        public object lista_opciones;
+
+        public Frm_Agregar()
         {
             InitializeComponent();
+        }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+
+            
         }
     }
 }
